@@ -62,3 +62,5 @@ for (int i = 0; i < array.Length; i++)
     array[i] = myRandom.Next(0, 8);
     Console.Write("{0} ", array[i]);
 }
+
+// как можно было все поломать (((((
