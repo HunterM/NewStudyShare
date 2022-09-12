@@ -12,10 +12,11 @@ if (B < 0)
 {
     Console.WriteLine("Введите чило B больше 0");
 }
-for (int i = 0; i <= B; i++)
+int stepenA = A;
+for (int i = 0; i < B; i++)
 {
-
-    Console.WriteLine("A в степени B = " + Math.Pow(A, i));
+    stepenA = A * stepenA;
+    Console.WriteLine("A в степени B = " + stepenA);
 }
 Console.WriteLine();
 
