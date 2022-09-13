@@ -54,7 +54,7 @@ Console.WriteLine();
 // 6, 1, 33 -> [6, 1, 33]
 
 
-int[] array = new int[8];
+int[] array = new int[8]; // new int  создание нового массива
 Random myRandom = new Random();
 Console.WriteLine("Случайный массив из 8 элементов: ");
 for (int i = 0; i < array.Length; i++)
