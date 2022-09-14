@@ -9,7 +9,7 @@ int[] array = new int[size];
 int count = 0;
 for (int i = 0; i < size; i++)
 {
-    array[i] = new Random().Next(100, 1000); // [100,999]
+    array[i] = new Random().Next(100, 1000);
     Console.Write(array[i] + "\t");
     if (array[i] %2 ==0) count++;
 }
